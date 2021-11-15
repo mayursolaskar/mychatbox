@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="cssfile.css">
+</head>
+
+<body>
+    <div class="container-fluid p-4">
+        <!--1stcolumn-->
+        <div class="row">
+            <div class="col-sm-5 leftbox">
+                <div class="d-flex ">
+                    <div class="p-2 mr-auto topmenu"><h2>WEHELP</h2></div>
+                    <div class="p-2 "><i class="fas fa-plus-circle"></i></div>
+                    <div class="p-2 "><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+                <div id="search">
+                    <label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
+                    <input type="text" class="serchop" placeholder="Search contacts..." />
+                </div>
+                <div class="d-flex text-center">
+                    <div class="p-2 bg-info flex-fill"><i class="fas fa-sync-alt"></i></div>
+                    <div class="p-2 bg-warning flex-fill"><i class="fas fa-user-friends"></i></div>
+                    <div class="p-2 bg-success flex-fill"><i class="fas fa-bell"></i></div>
+                    <div class="p-2 bg-primary flex-fill"><i class="fas fa-bars" id="ch"></i></div>
+                </div>
+                <!--contact list-->
+                <div id="contacts" class="contactli">
+                    <ul class="ultypenone">
+                        <li class="contact">
+                            <div class="wrap">
+                                <span class="contact-status busy"></span>
+                                <img src="https://img.etimg.com/thumb/msid-71917504,width-650,imgsize-623426,,resizemode-4,quality-100/untitled-3.jpg" alt="" />
+                                <div class="meta">
+                                    <p class="name">Virat Kohli</p>
+                                    <p class="preview">Whatever you want to do, do with full passion</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contact active">
+                            <div class="wrap">
+                                <span class="contact-status online"></span>
+                                <img src="https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg" alt="" />
+                                <div class="meta">
+                                    <p class="name">Rohit Sharma</p>
+                                    <p class="preview"> No matter how talented you are or naturally gifted you are, there's no substitute to hard work
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contact">
+                            <div class="wrap">
+                                <span class="contact-status away"></span>
+                                <img src="https://timesofindia.indiatimes.com/photo/69255220.cms" alt="" />
+                                <div class="meta">
+                                    <p class="name">MSD07</p>
+                                    <p class="preview">keep calm and believe in yourself  </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contact">
+                            <div class="wrap">
+                                <span class="contact-status online"></span>
+                                <img src="https://www.wikibuff.com/wp-content/uploads/2020/01/kl-rahul-biography-age-height-girlfriend-facts-1-1200x1200.jpg" alt="" />
+                                <div class="meta">
+                                    <p class="name">KL rahul</p>
+                                    <p class="preview">You should not remain in your comfort zone; if you want to make it big, you must challenge yourselfs</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contact">
+                            <div class="wrap">
+                                <span class="contact-status"></span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Ax4k2ACjPDzN8rUzp9v3BXeWheHVcV2Wog&usqp=CAU" alt="" />
+                                <div class="meta">
+                                    <p class="name">Jasprit Bumrah</p>
+                                    <p class="preview">hard work is the key to success</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contact">
+                            <div class="wrap">
+                                <span class="contact-status busy"></span>
+                                <img src="https://1.bp.blogspot.com/-efB7RFql3Q4/XDimW7MxkzI/AAAAAAAAS7Y/5nCGxKOqjNMTMtVVMCpUPs9Er0WY9h1RgCLcBGAs/s1600/Rishabh%2BPant%2BGO%2BPROFILE%2B1.jpeg" alt="" />
+                                <div class="meta">
+                                    <p class="name">Rishabh Pant</p>
+                                    <p class="preview">..worldcup dream...</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contact">
+                            <div class="wrap">
+                                <span class="contact-status"></span>
+                                <img src="https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-fqddj49sa5c0vthafintgkif12-20171028183232.Medi.jpeg" alt="" />
+                                <div class="meta">
+                                    <p class="name">Bhuvi</p>
+                                    <p class="preview">..offline..</p>
+                                </div>
+                            </div>
+                        </li>
+                               <li class="contact">
+                            <div class="wrap">
+                                <span class="contact-status away"></span>
+                                <img src="https://pbs.twimg.com/media/EY_-Yd0X0AAusmC.jpg" alt="" />
+                                <div class="meta">
+                                    <p class="name">Ravi bhai</p>
+                                    <p class="preview">india left the world cup......</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<!--middle frame-->
+            <div class="col-sm-4 middleframe">
+                <div class="content" >
+                    <div class="contact-profile" id="contenthide">
+                        <img src="https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg" alt="" />
+                        <p>Rohit Sharma</p>
+                    </div>
+                    <div class="messages" id="showmsg">
+                        <ul class="ultypenone">
+                            <li class="sent">
+                                <img src="https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg" alt="" />
+                                <p>A big thank you to all the undying support from all of you! </p>
+                            </li>
+                            <li class="replies">
+                                <img src="https://pbs.twimg.com/profile_images/856190907611201536/j8BcKFCd.jpg" alt="" />
+                                <p>whether it is a win or lose,We support you</p>
+                            </li>
+                            <li class="replies">
+                                <img src="https://pbs.twimg.com/profile_images/856190907611201536/j8BcKFCd.jpg" alt="" />
+                                <p>which is your fav. team to win worldcup</p>
+                            </li>
+                            <li class="sent">
+                                <img src="https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg" alt="" />
+                                <p>Every team is great.Every team want to win,we also want to win.we will win under Virat captaincy </p>
+                            </li>
+                            <li class="replies">
+                                <img src="https://pbs.twimg.com/profile_images/856190907611201536/j8BcKFCd.jpg" alt="" />
+                                <p>I hope your words come true </p>
+                            </li>
+                            <li class="replies">
+                                <img src="https://pbs.twimg.com/profile_images/856190907611201536/j8BcKFCd.jpg" alt="" />
+                                <p>Everyone from india eagerly waiting for 2nd T-20 worldcup win</p>
+                            </li>
+                            <li class="sent">
+                                <img src="https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg" alt="" />
+                                <p>Every player from team India played with pride & gave his best.</p>
+                            </li>
+                            <li class="replies">
+                                <img src="https://pbs.twimg.com/profile_images/856190907611201536/j8BcKFCd.jpg" alt="" />
+                                <p>that's the reason we are die heart fan of team india</p>
+                            </li>
+                        </ul>
+                    
+                    <div class="message-input">
+                        <div class="wrap">
+                            <input type="text" placeholder="Write your message..." />
+                            <i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+                            <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--last frame-->
+            <div class="col-sm-3 rightframe">
+                <div class="text-center"> 
+                    <div id="profileto" class="profilemenu">
+                        <h2>Profile
+                            <i class="fas fa-user-circle"></i>
+                        </h2>
+                    </div>
+                   
+                    <img src="https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg" class="profilepic mt-3">
+                    <span class="contact-status online"></span>
+                    <h3 style="color: #CD853F;">
+                        Rohit Sharma
+                    </h3>
+                    <small class="founder">Cricketer</small><br><i class="founder">"Hit-man,Borivali boy"</i>
+                </div>
+                <div class="infoprofile mt-4">
+                    <div class="row ">
+                        <div class="col-2 text-center">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="col-10">Right handed Batsman</div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-2 text-center">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="col-10">9999999999</div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-2 text-center">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="col-10">Mumbai,<br>Maharashtra</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+  $("#contenthide").click(function(){
+    $("#showmsg").slideToggle("5000");
+  });
+  $("#ch").click(function(){
+    $("#contacts").slideToggle("5000");
+  });
+});
+    </script>
+</body>
+
+</html>

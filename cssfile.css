@@ -1,0 +1,203 @@
+
+    <style>
+    .panel {
+        background: #E6EAEA;
+    }
+
+    .leftbox {
+        background: #32465a;
+        color: #ffffff;
+        font-weight:600;
+    }
+
+    #search {
+        border-top: 1px solid #32465a;
+        border-bottom: 1px solid #32465a;
+        font-weight: 300;
+    }
+
+    #search input {
+        font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+        padding: 10px 0 10px 26px;
+        width: 70%;
+        background: #e1f7e6;
+        color: #f5f5f5;
+        border-radius: 10px;
+    }
+
+    label {
+        color: whitesmoke;
+    }
+.flex-fill{
+border:1px solid black;
+}
+    .ultypenone {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrap img {
+        width: 40px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10px;
+    }
+
+    span.online {
+        background: #2ecc71;
+    }
+
+    .wrap span {
+        position: absolute;
+        left: 0;
+        margin: -2px 0 0 -2px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid #2c3e50;
+        background: #95a5a6;
+    }
+
+    span.online {
+        background: #2ecc71 !important;
+    }
+span.away{
+background: #f1c40f !important;
+}
+span.busy{
+background:pink !important;
+
+}
+/*
+    .contactli {
+        height: calc(100% - 177px);
+        overflow-y: scroll;
+        overflow-x: hidden;
+        color: white;
+     
+    }
+*/
+
+    ul li.contact {
+        position: relative;
+        padding: 10px 0 15px 0;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+
+    .active {
+        background: #7498bb;
+        border-right: 5px solid #435f7a;
+    }
+
+    ul li.contact .wrap {
+        width: 88%;
+        margin: 0 auto;
+    }
+
+    #contacts ul li:hover {
+        background: #496886;
+    }
+
+    .name {
+        font-weight: 700;
+    }
+
+    .preview {
+        margin: 15px 0 0 0;
+        padding: 0 0 1px;
+        font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: 1s all ease;
+    }
+
+    /*middle col*/
+    .middleframe {
+        background: #E6EAEA;
+    }
+
+    .contact-profile img {
+        width: 40px;
+        border-radius: 50%;
+        float: left;
+        margin: 9px 12px 0 9px;
+    }
+
+    .contact-profile {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background: #f5f5f5;
+    }
+    /*
+.social-media {
+float: right;
+}
+.fa {
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+
+}*/
+    li img {
+        width: 40px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .content .messages ul li {
+        display: inline-block;
+        clear: both;
+        float: left;
+        margin: 15px 15px 5px 15px;
+        width: calc(100% - 25px);
+        font-size: 0.9em;
+    }
+
+    ul li.sent p {
+        background: #435f7a;
+        color: #f5f5f5;
+    }
+
+    ul li.replies p {
+        background: #f5f5f5;
+        float: right;
+    }
+
+    ul li.replies img {
+        float: right;
+        margin: 6px 0 0 8px;
+    }
+
+    .sent p,
+    .replies p {
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 20px;
+        max-width: 205px;
+        line-height: 130%;
+    }
+
+    .profilemenu {
+        color: #008080;
+    }
+
+    .profilepic {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    /*right frame*/
+    .rightframe {
+        background: #f1f1ea;
+    }
+
+    .founder {
+        color: #12AD2B;
+    }
+</style>
